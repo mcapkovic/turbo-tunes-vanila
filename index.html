@@ -20,6 +20,21 @@
         background-color: black;
       }
 
+      #sound-starter {
+        color: cyan;
+        position: absolute;
+        top: 2em;
+        font-size: 1.5em;
+      }
+
+      #sound-checkbox {
+        display: none;
+      }
+
+      #sound-checkbox:checked + #sound-starter {
+        display: none;
+      }
+
       /* unvisited link */
       a:link {
         color: yellow;
@@ -84,6 +99,11 @@
 
   <body>
     <div class="container">
+      <input type="checkbox" id="sound-checkbox" name="sound-checkbox" />
+      <label id="sound-starter" for="sound-checkbox">
+        !!Click to enable SOUND!!</label
+      >
+
       <h1 class="welcome-text">Hello, this is</h1>
       <div class="site-name-wrapper">
         <img
@@ -99,6 +119,11 @@
         <img src="assets/note.gif" alt="page counter" />
       </div>
     </div>
+
+    <audio id="coin-sound">
+      <source src="assets/pickupCoin.wav" />
+      Your browser isn't invited for super fun audio time.
+    </audio>
 
     <audio id="laser-sound">
       <source src="assets/laserShoot.wav" />
@@ -116,8 +141,20 @@
     </audio>
 
     <footer><img src="assets/counter.gif" alt="page counter" /></footer>
-    
+
     <script>
+      const coinAudio = document.querySelector("#coin-sound");
+      const soundStarterElement = document.querySelector("#sound-starter");
+
+      soundStarterElement.addEventListener(
+        "click",
+        function () {
+          coinAudio.play();
+        },
+        false
+      );
+
+
       const laserAudio = document.querySelector("#laser-sound");
       const welcomeElement = document.querySelector(".welcome-text");
 
