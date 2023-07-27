@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+/* unvisited link */
+a:link {
+  color: yellow;
+}
+
+/* visited link */
+a:visited {
+  color: yellow;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+body {
+  background-color: dimgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  color: white;
+}
+
+.container {
+  min-width: 600px;
+  max-width: 800px;
+  background-color: black;
+  padding: 1em;
+}
+
+.album-image {
+  height: 200px;
+  width: 200px;
+  /* background-color: black; */
+  border: 1px solid white;
+}
