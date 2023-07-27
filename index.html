@@ -62,10 +62,10 @@
 
       .site-name {
         max-width: 100%;
-        transition: transform 0.5s ease-in-out;
+        transition: transform 0.5s ease-in;
       }
 
-      .site-name-wrapper:hover .site-name{
+      .site-name-wrapper:hover .site-name {
         transform: rotate(350deg) scale(1.5);
       }
 
@@ -90,7 +90,7 @@
           class="site-name"
           src="assets/logo_welcome.gif"
           alt="turbo_tunes"
-        />        
+        />
       </div>
 
       <div class="enter-section">
@@ -100,7 +100,88 @@
       </div>
     </div>
 
+    <audio id="laser-sound">
+      <source src="assets/laserShoot.wav" />
+      Your browser isn't invited for super fun audio time.
+    </audio>
+
+    <audio id="explosion-sound">
+      <source src="assets/explosion.wav" />
+      Your browser isn't invited for super fun audio time.
+    </audio>
+
+    <audio id="synth-sound">
+      <source src="assets/blipSelect.wav" />
+      Your browser isn't invited for super fun audio time.
+    </audio>
+
     <footer><img src="assets/counter.gif" alt="page counter" /></footer>
-    <script></script>
+    
+    <script>
+      const laserAudio = document.querySelector("#laser-sound");
+      const welcomeElement = document.querySelector(".welcome-text");
+
+      welcomeElement.addEventListener(
+        "mouseover",
+        function () {
+          laserAudio.play();
+        },
+        false
+      );
+
+      welcomeElement.addEventListener(
+        "mouseleave",
+        function () {
+          laserAudio.pause();
+          laserAudio.currentTime = 0;
+        },
+        false
+      );
+
+      const explosionAudio = document.querySelector("#explosion-sound");
+      const logoElement = document.querySelector(".site-name");
+
+      let timeoutID;
+
+      logoElement.addEventListener(
+        "mouseover",
+        function () {
+          timeoutID = setTimeout(() => {
+            explosionAudio.play();
+          }, "500");
+        },
+        false
+      );
+
+      logoElement.addEventListener(
+        "mouseleave",
+        function () {
+          clearTimeout(timeoutID);
+          explosionAudio.pause();
+          explosionAudio.currentTime = 0;
+        },
+        false
+      );
+
+      const synthAudio = document.querySelector("#synth-sound");
+      const enterLinkElement = document.querySelector(".enter-link");
+
+      enterLinkElement.addEventListener(
+        "mouseover",
+        function () {
+          synthAudio.play();
+        },
+        false
+      );
+
+      enterLinkElement.addEventListener(
+        "mouseleave",
+        function () {
+          synthAudio.pause();
+          synthAudio.currentTime = 0;
+        },
+        false
+      );
+    </script>
   </body>
 </html>
