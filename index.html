@@ -46,10 +46,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-      }
-
-      .site-name {
-        max-width: 100%;
+        padding: 1em;
       }
 
       .welcome-text {
@@ -59,9 +56,23 @@
         margin-bottom: 0.2em;
       }
 
+      .welcome-text:hover {
+        transform: scale(1.5);
+      }
+
+      .site-name {
+        max-width: 100%;
+        transition: transform 0.5s ease-in-out;
+      }
+
+      .site-name-wrapper:hover .site-name{
+        transform: rotate(350deg) scale(1.5);
+      }
+
       .enter-section {
         display: flex;
         align-items: center;
+        z-index: 100;
       }
 
       .enter-link {
@@ -74,7 +85,13 @@
   <body>
     <div class="container">
       <h1 class="welcome-text">Hello, this is</h1>
-      <img class="site-name" src="assets/logo_welcome.gif" alt="turbo_tunes" />
+      <div class="site-name-wrapper">
+        <img
+          class="site-name"
+          src="assets/logo_welcome.gif"
+          alt="turbo_tunes"
+        />        
+      </div>
 
       <div class="enter-section">
         <img src="assets/note.gif" alt="page counter" />
