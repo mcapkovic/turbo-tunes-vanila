@@ -38,7 +38,7 @@ body {
   padding: 1em;
 }
 
-.album-image {
+.tile__image {
   height: 200px;
   width: 200px;
   /* background-color: black; */
