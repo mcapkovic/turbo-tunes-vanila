@@ -7,63 +7,63 @@ const songsData = [
     song_img:
       "https://linkstorage.linkfire.com/medialinks/images/b235e663-466a-4332-918f-09c5576cb6eb/artwork-440x440.jpg",
     song_lyrics: `Hiya, Barbie
-        Hi, Ken
-        You want to go for a ride?
-        Sure, Ken
-        Jump in
-        I'm a Barbie girl, in the Barbie world
-        Life in plastic, it's fantastic
-        You can brush my hair, undress me everywhere
-        Imagination, life is your creation
-        Come on, Barbie, let's go party
-        I'm a Barbie girl, in the Barbie world
-        Life in plastic, it's fantastic
-        You can brush my hair, undress me everywhere
-        Imagination, life is your creation
-        I'm a blonde bimbo girl in a fantasy world
-        Dress me up, make it tight, I'm your dolly
-        You're my doll, rock'n'roll, feel the glamour in pink
-        Kiss me here, touch me there, hanky panky
-        You can touch
-        You can play
-        If you say, \"I'm always yours\" (ooh, oh)
-        I'm a Barbie girl, in the Barbie world
-        Life in plastic, it's fantastic
-        You can brush my hair, undress me everywhere
-        Imagination, life is your creation
-        Come on, Barbie, let's go party (ah ah ah yeah)
-        Come on, Barbie, let's go party (ooh oh, ooh oh)
-        Come on, Barbie, let's go party (ah ah ah yeah)
-        Come on, Barbie, let's go party (ooh oh, ooh oh)
-        Make me walk, make me talk, do whatever you please
-        I can act like a star, I can beg on my knees
-        Come jump in, bimbo friend, let us do it again
-        Hit the town, fool around, let's go party
-        You can touch
-        You can play
-        If you say, \"I'm always yours\"
-        You can touch
-        You can play
-        If you say, \"I'm always yours\"
-        Come on, Barbie, let's go party (ah ah ah yeah)
-        Come on, Barbie, let's go party (ooh oh, ooh oh)
-        Come on, Barbie, let's go party (ah ah ah yeah)
-        Come on, Barbie, let's go party (ooh oh, ooh oh)
-        I'm a Barbie girl, in the Barbie world
-        Life in plastic, it's fantastic
-        You can brush my hair, undress me everywhere
-        Imagination, life is your creation
-        I'm a Barbie girl, in the Barbie world
-        Life in plastic, it's fantastic
-        You can brush my hair, undress me everywhere
-        Imagination, life is your creation
-        Come on, Barbie, let's go party (ah ah ah yeah)
-        Come on, Barbie, let's go party (ooh oh, ooh oh)
-        Come on, Barbie, let's go party (ah ah ah yeah)
-        Come on, Barbie, let's go party (ooh oh, ooh oh)
-        Oh, I'm having so much fun
-        Well, Barbie, we're just getting started
-        Oh, I love you, Ken`,
+Hi, Ken
+You want to go for a ride?
+Sure, Ken
+Jump in
+I'm a Barbie girl, in the Barbie world
+Life in plastic, it's fantastic
+You can brush my hair, undress me everywhere
+Imagination, life is your creation
+Come on, Barbie, let's go party
+I'm a Barbie girl, in the Barbie world
+Life in plastic, it's fantastic
+You can brush my hair, undress me everywhere
+Imagination, life is your creation
+I'm a blonde bimbo girl in a fantasy world
+Dress me up, make it tight, I'm your dolly
+You're my doll, rock'n'roll, feel the glamour in pink
+Kiss me here, touch me there, hanky panky
+You can touch
+You can play
+If you say, \"I'm always yours\" (ooh, oh)
+I'm a Barbie girl, in the Barbie world
+Life in plastic, it's fantastic
+You can brush my hair, undress me everywhere
+Imagination, life is your creation
+Come on, Barbie, let's go party (ah ah ah yeah)
+Come on, Barbie, let's go party (ooh oh, ooh oh)
+Come on, Barbie, let's go party (ah ah ah yeah)
+Come on, Barbie, let's go party (ooh oh, ooh oh)
+Make me walk, make me talk, do whatever you please
+I can act like a star, I can beg on my knees
+Come jump in, bimbo friend, let us do it again
+Hit the town, fool around, let's go party
+You can touch
+You can play
+If you say, \"I'm always yours\"
+You can touch
+You can play
+If you say, \"I'm always yours\"
+Come on, Barbie, let's go party (ah ah ah yeah)
+Come on, Barbie, let's go party (ooh oh, ooh oh)
+Come on, Barbie, let's go party (ah ah ah yeah)
+Come on, Barbie, let's go party (ooh oh, ooh oh)
+I'm a Barbie girl, in the Barbie world
+Life in plastic, it's fantastic
+You can brush my hair, undress me everywhere
+Imagination, life is your creation
+I'm a Barbie girl, in the Barbie world
+Life in plastic, it's fantastic
+You can brush my hair, undress me everywhere
+Imagination, life is your creation
+Come on, Barbie, let's go party (ah ah ah yeah)
+Come on, Barbie, let's go party (ooh oh, ooh oh)
+Come on, Barbie, let's go party (ah ah ah yeah)
+Come on, Barbie, let's go party (ooh oh, ooh oh)
+Oh, I'm having so much fun
+Well, Barbie, we're just getting started
+Oh, I love you, Ken`,
   },
   {
     artist: "Britney Spears",
@@ -72,78 +72,78 @@ const songsData = [
     song_img:
       "https://upload.wikimedia.org/wikipedia/en/e/ec/...Baby_One_More_Time_Single.png",
     song_lyrics: `Oh, baby, baby
-        Oh, baby, baby
-        
-        Oh, baby, baby
-        How was I supposed to know
-        That something wasn't right here?
-        Oh, baby, baby
-        I shouldn't have let you go
-        And now you're out of sight, yeah
-        
-        Show me how you want it to be
-        Tell me, baby
-        'Cause I need to know now, oh, because
-        
-        My loneliness
-        Is killing me and I
-        I must confess
-        I still believe, still believe
-        When I'm not with you I lose my mind
-        Give me a sign
-        Hit me, baby, one more time
-        
-        Oh, baby, baby
-        The reason I breathe is you
-        Boy, you got me blinded
-        Oh, pretty baby
-        There's nothing that I wouldn't do
-        It's not the way I planned it
-        
-        Show me how you want it to be
-        Tell me, baby
-        'Cause I need to know now, oh, because
-        
-        My loneliness
-        Is killing me and I
-        I must confess
-        I still believe, still believe
-        When I'm not with you I lose my mind
-        Give me a sign
-        Hit me, baby, one more time
-        
-        Oh, baby, baby
-        Oh, baby, baby
-        Ah, yeah, yeah
-        
-        Oh, baby, baby
-        How was I supposed to know?
-        Oh, pretty baby
-        I shouldn't have let you go
-        
-        I must confess
-        That my loneliness
-        Is killing me now
-        Don't you know I still believe
-        That you will be here
-        And give me a sign?
-        Hit me, baby, one more time
-        
-        My loneliness
-        Is killing me and I
-        I must confess
-        I still believe, still believe
-        When I'm not with you I lose my mind
-        Give me a sign
-        Hit me, baby, one more time
-        
-        I must confess
-        That my loneliness
-        Is killing me now
-        Don't you know I still believe
-        That you will be here
-        And give me a sign?
-        Hit me, baby, one more time`,
+Oh, baby, baby
+
+Oh, baby, baby
+How was I supposed to know
+That something wasn't right here?
+Oh, baby, baby
+I shouldn't have let you go
+And now you're out of sight, yeah
+
+Show me how you want it to be
+Tell me, baby
+'Cause I need to know now, oh, because
+
+My loneliness
+Is killing me and I
+I must confess
+I still believe, still believe
+When I'm not with you I lose my mind
+Give me a sign
+Hit me, baby, one more time
+
+Oh, baby, baby
+The reason I breathe is you
+Boy, you got me blinded
+Oh, pretty baby
+There's nothing that I wouldn't do
+It's not the way I planned it
+
+Show me how you want it to be
+Tell me, baby
+'Cause I need to know now, oh, because
+
+My loneliness
+Is killing me and I
+I must confess
+I still believe, still believe
+When I'm not with you I lose my mind
+Give me a sign
+Hit me, baby, one more time
+
+Oh, baby, baby
+Oh, baby, baby
+Ah, yeah, yeah
+
+Oh, baby, baby
+How was I supposed to know?
+Oh, pretty baby
+I shouldn't have let you go
+
+I must confess
+That my loneliness
+Is killing me now
+Don't you know I still believe
+That you will be here
+And give me a sign?
+Hit me, baby, one more time
+
+My loneliness
+Is killing me and I
+I must confess
+I still believe, still believe
+When I'm not with you I lose my mind
+Give me a sign
+Hit me, baby, one more time
+
+I must confess
+That my loneliness
+Is killing me now
+Don't you know I still believe
+That you will be here
+And give me a sign?
+Hit me, baby, one more time`,
   },
   {
     artist: "Backstreet Boys",
@@ -225,10 +225,34 @@ const songsData = [
     song_lyrics: "",
   },
   {
+    artist: "Bon Jovi",
+    song_name: "It's My Life",
+    song_url: "https://www.youtube.com/watch?v=vx2u5uUu3DE",
+    song_img: "https://upload.wikimedia.org/wikipedia/en/c/c1/BonJoviItsMyLifeCDSingleCover.jpg",
+    song_lyrics: "",
+  },
+  {
+    artist: "Scatman",
+    song_name: "Ski Ba Bop Ba Dop Bop",
+    song_url: "https://www.youtube.com/watch?v=pVHKp6ffURY",
+    song_img: "https://upload.wikimedia.org/wikipedia/en/b/b3/Scatmansingle.JPG",
+    song_lyrics: "",
+  },
+  {
+    artist: "Spice Girls ",
+    song_name: "Wannabe",
+    song_url: "https://www.youtube.com/watch?v=gJLIiF15wjQ",
+    song_img: "https://upload.wikimedia.org/wikipedia/en/b/b1/Wannabe.jpg",
+    song_lyrics: "",
+  },
+  {
     artist: "",
     song_name: "",
     song_url: "",
     song_img: "",
     song_lyrics: "",
-  },
+  }
+
 ];
+
+
