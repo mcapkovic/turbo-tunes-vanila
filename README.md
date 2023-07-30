@@ -3,5 +3,5 @@ https://mcapkovic.github.io/turbo-tunes-vanila/
 
 # sources:
 [sound generator](https://sfxr.me/)
-[logo generator](https://flamingtext.com/logo/Design-Flaming-Text-Animation)
-
+[flame logo](https://flamingtext.com/logo/Design-Flaming-Text-Animation)
+[pixel logo](https://www11.flamingtext.com/net-fu/jobs/28365365457518131.html)
