@@ -15,17 +15,21 @@ const tiles = songs
     );
     const linkElement = newTileElement.querySelector(".tile__song-link");
     const lyricsElement = newTileElement.querySelector(".tile__lyrics");
+    const lyricsPreviewElement = newTileElement.querySelector(
+      ".tile__lyrics__preview"
+    );
+    const lyricsTextElement = newTileElement.querySelector(
+      ".tile__lyrics__text"
+    );
 
     titleElement.textContent = `${song.artist} - ${song.song_name}`;
     imageElement.src = song.song_img;
     linkElement.href = song.song_url;
 
-    const lyrics = song.song_lyrics
-      ?.split("\n")
-      .filter((_, index) => index < 10)
-      .join("\n");
-
-    lyricsElement.textContent = lyrics ? `${lyrics}\n...` : "";
+    const lyrics = song.song_lyrics?.split("\n");
+    lyricsElement.style.display = song.song_lyrics === "" ? "none" : "block";
+    lyricsPreviewElement.textContent = `lyrics: ${lyrics[0]}... (click to expand))`;
+    lyricsTextElement.textContent = song.song_lyrics;
 
     return newTileElement;
   })
